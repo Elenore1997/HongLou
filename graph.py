@@ -241,7 +241,7 @@ def relation_graph():
     test_graph = Graph(
         "http://localhost:7474",
         username="neo4j",
-        password="sincejune1997."
+        password=""
     )
     test_graph.delete_all()
 
@@ -301,7 +301,7 @@ def relation_graph():
     search_char_by_relation("仆人")
 
 
-relation_graph()
+# relation_graph()
 
 
 def author():
